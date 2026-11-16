@@ -1,0 +1,15 @@
+name: BWhitelist
+version: 1.0.0
+main: jp.koro.bwhitelist.BWhitelist
+api-version: '26.3'
+description: Add Bedrock (Floodgate) players to the whitelist by Xbox gamertag
+author: fuwa
+commands:
+  bwhitelist:
+    description: 統合版プレイヤーをホワイトリストに追加/削除/一覧
+    usage: /bwhitelist <add|remove|list> [ゲーマータグ]
+    permission: bwhitelist.admin
+permissions:
+  bwhitelist.admin:
+    description: /bwhitelist の使用許可
+    default: op

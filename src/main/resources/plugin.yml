@@ -1,0 +1,15 @@
+name: BAllowlist
+version: 1.0.0
+main: jp.koro.allowlist.BAllowlist
+api-version: '26.3'
+description: Add Bedrock (Floodgate) players to the whitelist by Xbox gamertag
+author: fuwa
+commands:
+  allowlist:
+    description: 統合版プレイヤーをホワイトリストに追加/削除/一覧
+    usage: /allowlist <add|remove|list> [ゲーマータグ]
+    permission: allowlist.admin
+permissions:
+  allowlist.admin:
+    description: /allowlist の使用許可
+    default: op
